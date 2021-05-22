@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    opacity: 0.9;
+}
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+}
+/*HEADER*/
+header{
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    width: 100%;
+    align-items:center;
+    z-index: 1;
+    background-color: black;
+}
+img{
+    height: 50px;
+    margin-left: 10px;
+}
+.nav a{
+    color:seashell;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+nav{
+    margin-left: auto;
+}
+/*MAIN CONTENT*/
+#mission{
+background-image: url('images/img-mission-background.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 700px;
+width: 1200px;
+margin: 0 auto;
+position: relative;
+top: 69px;
+display: flex;
+justify-content: center;
+align-items:center;
+text-align: center;
+}
+.main{
+    background-color: black;
+    width: 1200px;
+}
+.heading h2{
+    padding: 13px 0;
+}
+.heading h4{
+padding-bottom: 13px;
+}
+/*SECONDARY CONTENT*/
+#Featured-Tea{
+width: 1000px;
+margin: 0 auto;
+position: relative;
+top: 115px;
+display:flex;
+justify-content: center;
+text-align: center;
+margin-bottom: 20px;
+}
+.secondary h2{
+    padding: 15px 0;
+}
+img.img-text{
+    height: 200px;
+    width: 300px;
+
+}
+figure{
+    padding: 0 10px;
+}
+figcaption{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.pictures{
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*LOCATIONS*/
+#Locations{
+background-image: url("images/img-locations-background.jpg");
+background-position: center;
+height: 500px;
+width: 1200px;
+margin: 0 auto;
+position: relative;
+top: 150px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+}
+
+div.location{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 40px;
+
+}
+div.locals{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 89px;
+    margin-bottom: 50px;
+}
+footer.bottom-page{
+height: 200px;
+margin: 0 auto;
+position: relative;
+top: 130px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+.final{
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom:20px;
+    position: relative;
+    top: 140px;
+}
+
