@@ -4,3 +4,4 @@ Tea Cozy is a project where I had to write code to look exactly like a website i
 ## Technologies
 Project created with:
 * HTML
+* CSS
