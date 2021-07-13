@@ -1,2 +1,6 @@
 # TeaCozy
-Tea Cozy project where i had to write code for a website given and idealized by codeacademy. 
+Tea Cozy is a project where I had to write code to look exactly like a website idealized by codeacademy.
+
+## Technologies
+Project created with:
+* HTML
